@@ -1,0 +1,5 @@
+[default]
+region = us-east-2
+output = json
+; role_arn = arn:aws:iam::756902089000:role/eks-service-role
+; source_profile = default

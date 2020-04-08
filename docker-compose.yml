@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  aws-cli:
+    build:
+      context: ./
+    image: morningspace/lab-aws
+    container_name: lab-aws
+    volumes:
+      - ./config/aws:/home/coder/.aws:rw
